@@ -29,7 +29,7 @@ public class Question5
      */
      
     Scanner in = new Scanner(System.in);
-    int noOfInput = in.nextInt();
+    int noOfInput = in.nextInt(); 
     Dictionary<Integer, Integer> freqDict = new Hashtable<Integer, Integer>();
     int inputKey;
     int freqValue;
