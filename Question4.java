@@ -17,13 +17,15 @@ public class Question4
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
     Scanner in = new Scanner(System.in);
-    int base = in.nextInt();
-    for (int i = 0; i < base; i++){
-      for (int j = base - i; j > 0; j--){
-        System.out.print("*");
+    int number = in.nextInt();
+
+    for(int i = number; i>=0; i--)
+      {
+        for(int j = 0; j<i; j++)
+          {
+            System.out.print("*");
+          }
+        System.out.println();
       }
-      System.out.println();
-    }
-    in.close();
   }
 }
