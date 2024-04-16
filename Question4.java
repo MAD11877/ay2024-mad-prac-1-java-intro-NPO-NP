@@ -16,7 +16,7 @@ public class Question4
      * 
      * Hint: 2 loops are required. System.out.print(...) to print on single line.
      */
-Scanner in = new Scanner(System.in);
+    Scanner in = new Scanner(System.in);
     int base = in.nextInt();
     for (int i = 0; i < base; i++){
       for (int j = base - i; j > 0; j--){
